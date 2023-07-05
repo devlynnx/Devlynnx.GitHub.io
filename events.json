@@ -1,0 +1,1831 @@
+[
+  {
+    "id": "29870241076",
+    "type": "CommitCommentEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "comment": {
+        "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/comments/118871755",
+        "html_url": "https://github.com/Devlynnx/vscode-gitlens/commit/f442274e861a5378a655dce926ae6aa451e6ba2a#commitcomment-118871755",
+        "id": 118871755,
+        "node_id": "CC_kwDOJlWNSs4HFdbL",
+        "user": {
+          "login": "Devlynnx",
+          "id": 131967130,
+          "node_id": "U_kgDOB92omg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131967130?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Devlynnx",
+          "html_url": "https://github.com/Devlynnx",
+          "followers_url": "https://api.github.com/users/Devlynnx/followers",
+          "following_url": "https://api.github.com/users/Devlynnx/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Devlynnx/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Devlynnx/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Devlynnx/subscriptions",
+          "organizations_url": "https://api.github.com/users/Devlynnx/orgs",
+          "repos_url": "https://api.github.com/users/Devlynnx/repos",
+          "events_url": "https://api.github.com/users/Devlynnx/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Devlynnx/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "position": null,
+        "line": null,
+        "path": null,
+        "commit_id": "f442274e861a5378a655dce926ae6aa451e6ba2a",
+        "created_at": "2023-06-20T08:00:57Z",
+        "updated_at": "2023-06-20T08:00:57Z",
+        "author_association": "OWNER",
+        "body": "Index.txt",
+        "reactions": {
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/comments/118871755/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2023-06-20T08:00:57Z"
+  },
+  {
+    "id": "29847033008",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 14030892642,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "f442274e861a5378a655dce926ae6aa451e6ba2a",
+      "before": "6e0369d942db27a8656593907a547e2cfc0cfe80",
+      "commits": [
+        {
+          "sha": "f442274e861a5378a655dce926ae6aa451e6ba2a",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Create Merlin\n\nGitBook.md",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f442274e861a5378a655dce926ae6aa451e6ba2a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-19T10:10:00Z"
+  },
+  {
+    "id": "29846599881",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 14030695927,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "6e0369d942db27a8656593907a547e2cfc0cfe80",
+      "before": "9089d431b5d17b309e0ade2efd5afc88922df9cd",
+      "commits": [
+        {
+          "sha": "6e0369d942db27a8656593907a547e2cfc0cfe80",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Create jekyll-docker.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/6e0369d942db27a8656593907a547e2cfc0cfe80"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-19T09:55:10Z"
+  },
+  {
+    "id": "29829575239",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 14021393461,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "9089d431b5d17b309e0ade2efd5afc88922df9cd",
+      "before": "ea00051c6dd581b98d7b9591e08f8d9d952b7a40",
+      "commits": [
+        {
+          "sha": "9089d431b5d17b309e0ade2efd5afc88922df9cd",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Create datadog-synthetics.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/9089d431b5d17b309e0ade2efd5afc88922df9cd"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-18T05:00:40Z"
+  },
+  {
+    "id": "29829562178",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 14021384863,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "ea00051c6dd581b98d7b9591e08f8d9d952b7a40",
+      "before": "45727525f03123f65320f9b001475632f558d97b",
+      "commits": [
+        {
+          "sha": "ea00051c6dd581b98d7b9591e08f8d9d952b7a40",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Create manual.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/ea00051c6dd581b98d7b9591e08f8d9d952b7a40"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-18T04:57:45Z"
+  },
+  {
+    "id": "29829552013",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 14021378555,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "45727525f03123f65320f9b001475632f558d97b",
+      "before": "90801218942259c3f3d7f0a757e505c98af4eeea",
+      "commits": [
+        {
+          "sha": "45727525f03123f65320f9b001475632f558d97b",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Create generator-generic-ossf-slsa3-publish.yml",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/45727525f03123f65320f9b001475632f558d97b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-18T04:55:13Z"
+  },
+  {
+    "id": "29829518528",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 14021357042,
+      "size": 8,
+      "distinct_size": 8,
+      "ref": "refs/heads/main",
+      "head": "90801218942259c3f3d7f0a757e505c98af4eeea",
+      "before": "c0d0a2dc2c1aeadc33779eca93c263e116bd4f71",
+      "commits": [
+        {
+          "sha": "2c0ace08fa4b0453b68c35bbb541b55f03e3f49b",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Removes extra +",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/2c0ace08fa4b0453b68c35bbb541b55f03e3f49b"
+        },
+        {
+          "sha": "0e758392a0685541d61fcc3a7267282442bbf5f3",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes commands in Search & Compare welcome view",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/0e758392a0685541d61fcc3a7267282442bbf5f3"
+        },
+        {
+          "sha": "cf6b363cbd2d3b507a4890f9d53c738ca0016723",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Disables zindex optimizer in cssnano",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/cf6b363cbd2d3b507a4890f9d53c738ca0016723"
+        },
+        {
+          "sha": "d6984dd19eb27c515c1a5c562a7eaa66a7944127",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes dupes when searching for commits & stashes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d6984dd19eb27c515c1a5c562a7eaa66a7944127"
+        },
+        {
+          "sha": "5dc1c8716428140c164dbd3edb1e957bd276ff70",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes #2742 avoids refresh while laoding children",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/5dc1c8716428140c164dbd3edb1e957bd276ff70"
+        },
+        {
+          "sha": "a26338f0029128facf67ec6e0c90c5fdcbd800d4",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Changes contextual title's to GL",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/a26338f0029128facf67ec6e0c90c5fdcbd800d4"
+        },
+        {
+          "sha": "f119daed446cfba29c0de8755317e7ce7691935e",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Updates CHANGELOG",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f119daed446cfba29c0de8755317e7ce7691935e"
+        },
+        {
+          "sha": "90801218942259c3f3d7f0a757e505c98af4eeea",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Merge branch 'gitkraken:main' into main",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/90801218942259c3f3d7f0a757e505c98af4eeea"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-18T04:47:01Z"
+  },
+  {
+    "id": "29829518527",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 14021357041,
+      "size": 8,
+      "distinct_size": 8,
+      "ref": "refs/heads/main",
+      "head": "90801218942259c3f3d7f0a757e505c98af4eeea",
+      "before": "c0d0a2dc2c1aeadc33779eca93c263e116bd4f71",
+      "commits": [
+        {
+          "sha": "2c0ace08fa4b0453b68c35bbb541b55f03e3f49b",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Removes extra +",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/2c0ace08fa4b0453b68c35bbb541b55f03e3f49b"
+        },
+        {
+          "sha": "0e758392a0685541d61fcc3a7267282442bbf5f3",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes commands in Search & Compare welcome view",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/0e758392a0685541d61fcc3a7267282442bbf5f3"
+        },
+        {
+          "sha": "cf6b363cbd2d3b507a4890f9d53c738ca0016723",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Disables zindex optimizer in cssnano",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/cf6b363cbd2d3b507a4890f9d53c738ca0016723"
+        },
+        {
+          "sha": "d6984dd19eb27c515c1a5c562a7eaa66a7944127",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes dupes when searching for commits & stashes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d6984dd19eb27c515c1a5c562a7eaa66a7944127"
+        },
+        {
+          "sha": "5dc1c8716428140c164dbd3edb1e957bd276ff70",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes #2742 avoids refresh while laoding children",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/5dc1c8716428140c164dbd3edb1e957bd276ff70"
+        },
+        {
+          "sha": "a26338f0029128facf67ec6e0c90c5fdcbd800d4",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Changes contextual title's to GL",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/a26338f0029128facf67ec6e0c90c5fdcbd800d4"
+        },
+        {
+          "sha": "f119daed446cfba29c0de8755317e7ce7691935e",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Updates CHANGELOG",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f119daed446cfba29c0de8755317e7ce7691935e"
+        },
+        {
+          "sha": "90801218942259c3f3d7f0a757e505c98af4eeea",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Merge branch 'gitkraken:main' into main",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/90801218942259c3f3d7f0a757e505c98af4eeea"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-18T04:47:01Z"
+  },
+  {
+    "id": "29764412514",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 13987831844,
+      "size": 77,
+      "distinct_size": 77,
+      "ref": "refs/heads/main",
+      "head": "c0d0a2dc2c1aeadc33779eca93c263e116bd4f71",
+      "before": "79d3dff7e4595ac75d8dbeb3a4b1c85fde2206b4",
+      "commits": [
+        {
+          "sha": "8136c4c275d68ead3db48f36330f16785be2d302",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Renames constants",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/8136c4c275d68ead3db48f36330f16785be2d302"
+        },
+        {
+          "sha": "d1e91cdc1c603c75945fffb22b7b2808b61d604c",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Renames some workspace commands\nAdds types for tree view commands",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d1e91cdc1c603c75945fffb22b7b2808b61d604c"
+        },
+        {
+          "sha": "5480aa8025baf1f164ceb0ffe02921f8d2a2884b",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Reworks getting of repository descriptors\nRemoves GK prefix from workspace types",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/5480aa8025baf1f164ceb0ffe02921f8d2a2884b"
+        },
+        {
+          "sha": "17970d8258aa7123891ac903c6280ca83baf16ad",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Removes some git commands from workspace repo nodes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/17970d8258aa7123891ac903c6280ca83baf16ad"
+        },
+        {
+          "sha": "d7427db1493581cafcf041aa3f6c5009dd5489da",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Adds progress for repo discovery on workspace add repos",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d7427db1493581cafcf041aa3f6c5009dd5489da"
+        },
+        {
+          "sha": "1287978a3d85ea475173a96d566923ae19e0cb96",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds ambient context to view nodes & fixes ids",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/1287978a3d85ea475173a96d566923ae19e0cb96"
+        },
+        {
+          "sha": "f4608ee4be0bb767d597bd29cb4ae06c98ea235b",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Removes additional commands from branches/branch nodes in closed repos",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f4608ee4be0bb767d597bd29cb4ae06c98ea235b"
+        },
+        {
+          "sha": "f41af294ba348c634801f99a6e0ac78a3b765acb",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds better typing for view commands",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f41af294ba348c634801f99a6e0ac78a3b765acb"
+        },
+        {
+          "sha": "ec9da02ffaebad581d266095b33f24abfbc70b4c",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Avoids use-before-init w/ useDefineForClassFields\nSee https://github.com/microsoft/TypeScript/issues/50971",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/ec9da02ffaebad581d266095b33f24abfbc70b4c"
+        },
+        {
+          "sha": "9d0b3634ae2efc7ef55c2dc757bebdd1c1e6386e",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates dependencies",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/9d0b3634ae2efc7ef55c2dc757bebdd1c1e6386e"
+        },
+        {
+          "sha": "87930a0420cc2c703a43c388a9994f033eb17d69",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds focus view illustration",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/87930a0420cc2c703a43c388a9994f033eb17d69"
+        },
+        {
+          "sha": "a5602bcd1dbcb85057db98701f8cfabce209b130",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds focus and workspaces svgs",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/a5602bcd1dbcb85057db98701f8cfabce209b130"
+        },
+        {
+          "sha": "4b0bd63fd68cbd0aba6e04130f63d17aa83eecdb",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Updates workspaces svg",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/4b0bd63fd68cbd0aba6e04130f63d17aa83eecdb"
+        },
+        {
+          "sha": "fc958b69c7e77879ded3d5367f6fd118c1b5d9fe",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Refines messaging",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/fc958b69c7e77879ded3d5367f6fd118c1b5d9fe"
+        },
+        {
+          "sha": "01bd23a505bb9c0c287cafc11fe677e8094f3d82",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds commit graph SVG to walkthrough",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/01bd23a505bb9c0c287cafc11fe677e8094f3d82"
+        },
+        {
+          "sha": "3b9a1f84dabcabce661a9775ba03c24926a9970a",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Removes light edges from walkthrough gifs",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/3b9a1f84dabcabce661a9775ba03c24926a9970a"
+        },
+        {
+          "sha": "521bd09cff4b84cf20b57f0f96e1fee0bae717d5",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Removes unused walkthrough files",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/521bd09cff4b84cf20b57f0f96e1fee0bae717d5"
+        },
+        {
+          "sha": "9a92387adec14f1a7e9ffb14e9053d5dd1ded7c9",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds open/closed/virtual repo icons\nRefines workspace repo nodes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/9a92387adec14f1a7e9ffb14e9053d5dd1ded7c9"
+        },
+        {
+          "sha": "d5cc612f0db673464de97727e373a0d95cc11a56",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Refines welcome",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d5cc612f0db673464de97727e373a0d95cc11a56"
+        },
+        {
+          "sha": "579202863682db6e7b19f2e7db6b436426af895a",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes light theme on timeline svg",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/579202863682db6e7b19f2e7db6b436426af895a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-14T22:45:56Z"
+  },
+  {
+    "id": "29764412497",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 13987831840,
+      "size": 77,
+      "distinct_size": 77,
+      "ref": "refs/heads/main",
+      "head": "c0d0a2dc2c1aeadc33779eca93c263e116bd4f71",
+      "before": "79d3dff7e4595ac75d8dbeb3a4b1c85fde2206b4",
+      "commits": [
+        {
+          "sha": "8136c4c275d68ead3db48f36330f16785be2d302",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Renames constants",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/8136c4c275d68ead3db48f36330f16785be2d302"
+        },
+        {
+          "sha": "d1e91cdc1c603c75945fffb22b7b2808b61d604c",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Renames some workspace commands\nAdds types for tree view commands",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d1e91cdc1c603c75945fffb22b7b2808b61d604c"
+        },
+        {
+          "sha": "5480aa8025baf1f164ceb0ffe02921f8d2a2884b",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Reworks getting of repository descriptors\nRemoves GK prefix from workspace types",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/5480aa8025baf1f164ceb0ffe02921f8d2a2884b"
+        },
+        {
+          "sha": "17970d8258aa7123891ac903c6280ca83baf16ad",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Removes some git commands from workspace repo nodes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/17970d8258aa7123891ac903c6280ca83baf16ad"
+        },
+        {
+          "sha": "d7427db1493581cafcf041aa3f6c5009dd5489da",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Adds progress for repo discovery on workspace add repos",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d7427db1493581cafcf041aa3f6c5009dd5489da"
+        },
+        {
+          "sha": "1287978a3d85ea475173a96d566923ae19e0cb96",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds ambient context to view nodes & fixes ids",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/1287978a3d85ea475173a96d566923ae19e0cb96"
+        },
+        {
+          "sha": "f4608ee4be0bb767d597bd29cb4ae06c98ea235b",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Removes additional commands from branches/branch nodes in closed repos",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f4608ee4be0bb767d597bd29cb4ae06c98ea235b"
+        },
+        {
+          "sha": "f41af294ba348c634801f99a6e0ac78a3b765acb",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds better typing for view commands",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f41af294ba348c634801f99a6e0ac78a3b765acb"
+        },
+        {
+          "sha": "ec9da02ffaebad581d266095b33f24abfbc70b4c",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Avoids use-before-init w/ useDefineForClassFields\nSee https://github.com/microsoft/TypeScript/issues/50971",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/ec9da02ffaebad581d266095b33f24abfbc70b4c"
+        },
+        {
+          "sha": "9d0b3634ae2efc7ef55c2dc757bebdd1c1e6386e",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates dependencies",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/9d0b3634ae2efc7ef55c2dc757bebdd1c1e6386e"
+        },
+        {
+          "sha": "87930a0420cc2c703a43c388a9994f033eb17d69",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds focus view illustration",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/87930a0420cc2c703a43c388a9994f033eb17d69"
+        },
+        {
+          "sha": "a5602bcd1dbcb85057db98701f8cfabce209b130",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds focus and workspaces svgs",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/a5602bcd1dbcb85057db98701f8cfabce209b130"
+        },
+        {
+          "sha": "4b0bd63fd68cbd0aba6e04130f63d17aa83eecdb",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Updates workspaces svg",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/4b0bd63fd68cbd0aba6e04130f63d17aa83eecdb"
+        },
+        {
+          "sha": "fc958b69c7e77879ded3d5367f6fd118c1b5d9fe",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Refines messaging",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/fc958b69c7e77879ded3d5367f6fd118c1b5d9fe"
+        },
+        {
+          "sha": "01bd23a505bb9c0c287cafc11fe677e8094f3d82",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds commit graph SVG to walkthrough",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/01bd23a505bb9c0c287cafc11fe677e8094f3d82"
+        },
+        {
+          "sha": "3b9a1f84dabcabce661a9775ba03c24926a9970a",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Removes light edges from walkthrough gifs",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/3b9a1f84dabcabce661a9775ba03c24926a9970a"
+        },
+        {
+          "sha": "521bd09cff4b84cf20b57f0f96e1fee0bae717d5",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Removes unused walkthrough files",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/521bd09cff4b84cf20b57f0f96e1fee0bae717d5"
+        },
+        {
+          "sha": "9a92387adec14f1a7e9ffb14e9053d5dd1ded7c9",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds open/closed/virtual repo icons\nRefines workspace repo nodes",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/9a92387adec14f1a7e9ffb14e9053d5dd1ded7c9"
+        },
+        {
+          "sha": "d5cc612f0db673464de97727e373a0d95cc11a56",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Refines welcome",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d5cc612f0db673464de97727e373a0d95cc11a56"
+        },
+        {
+          "sha": "579202863682db6e7b19f2e7db6b436426af895a",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes light theme on timeline svg",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/579202863682db6e7b19f2e7db6b436426af895a"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-14T22:45:56Z"
+  },
+  {
+    "id": "29670694296",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 13942026104,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/main",
+      "head": "79d3dff7e4595ac75d8dbeb3a4b1c85fde2206b4",
+      "before": "5a1b0901cac16da4a8fb16c0690b45f57f8c4a8d",
+      "commits": [
+        {
+          "sha": "d44ad0b745f281d078c329c77095a8a94b51c47d",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates dependencies",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d44ad0b745f281d078c329c77095a8a94b51c47d"
+        },
+        {
+          "sha": "c1af08d90f44c3d9c5df0c27b65f7c495f081939",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds shadow to pop-over component",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/c1af08d90f44c3d9c5df0c27b65f7c495f081939"
+        },
+        {
+          "sha": "eb3e6effdaf1b72dc3fef992c61efc7032f27622",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds link Focus view in the Graph header",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/eb3e6effdaf1b72dc3fef992c61efc7032f27622"
+        },
+        {
+          "sha": "79d3dff7e4595ac75d8dbeb3a4b1c85fde2206b4",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Merge branch 'gitkraken:main' into main",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/79d3dff7e4595ac75d8dbeb3a4b1c85fde2206b4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-11T11:19:28Z"
+  },
+  {
+    "id": "29670694278",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 13942026098,
+      "size": 4,
+      "distinct_size": 4,
+      "ref": "refs/heads/main",
+      "head": "79d3dff7e4595ac75d8dbeb3a4b1c85fde2206b4",
+      "before": "5a1b0901cac16da4a8fb16c0690b45f57f8c4a8d",
+      "commits": [
+        {
+          "sha": "d44ad0b745f281d078c329c77095a8a94b51c47d",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates dependencies",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d44ad0b745f281d078c329c77095a8a94b51c47d"
+        },
+        {
+          "sha": "c1af08d90f44c3d9c5df0c27b65f7c495f081939",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds shadow to pop-over component",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/c1af08d90f44c3d9c5df0c27b65f7c495f081939"
+        },
+        {
+          "sha": "eb3e6effdaf1b72dc3fef992c61efc7032f27622",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds link Focus view in the Graph header",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/eb3e6effdaf1b72dc3fef992c61efc7032f27622"
+        },
+        {
+          "sha": "79d3dff7e4595ac75d8dbeb3a4b1c85fde2206b4",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Merge branch 'gitkraken:main' into main",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/79d3dff7e4595ac75d8dbeb3a4b1c85fde2206b4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-11T11:19:28Z"
+  },
+  {
+    "id": "29643392317",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 13926692188,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "5a1b0901cac16da4a8fb16c0690b45f57f8c4a8d",
+      "before": "99da886904c88c2c04a3882506a4211940f79404",
+      "commits": [
+        {
+          "sha": "5a1b0901cac16da4a8fb16c0690b45f57f8c4a8d",
+          "author": {
+            "email": "131967130+Devlynnx@users.noreply.github.com",
+            "name": "Devlynnx"
+          },
+          "message": "Add files via upload",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/5a1b0901cac16da4a8fb16c0690b45f57f8c4a8d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-09T10:09:42Z"
+  },
+  {
+    "id": "29643349838",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 13926671466,
+      "size": 123,
+      "distinct_size": 123,
+      "ref": "refs/heads/main",
+      "head": "99da886904c88c2c04a3882506a4211940f79404",
+      "before": "33bc5845d92e22f8e920a3b3f22308c702bfb702",
+      "commits": [
+        {
+          "sha": "4976b43aea0ab6a3ac8662f52f89b4513bbf205e",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Adds files icon for graph changes column",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/4976b43aea0ab6a3ac8662f52f89b4513bbf205e"
+        },
+        {
+          "sha": "44305c8411637a510bb9d893ba54eea7cf9e7423",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds data-placement to all webviews & adds prop",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/44305c8411637a510bb9d893ba54eea7cf9e7423"
+        },
+        {
+          "sha": "29237c49287673d83a388376c310c517e3567ab6",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes persisted state issues",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/29237c49287673d83a388376c310c517e3567ab6"
+        },
+        {
+          "sha": "592fb60bc57bf20b54f6e2f0288b847a080fee57",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Moves throttle and fixes implementation",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/592fb60bc57bf20b54f6e2f0288b847a080fee57"
+        },
+        {
+          "sha": "4a04d6a81ed0a04dae10e45529128ea461285d31",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Enables minimap by default",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/4a04d6a81ed0a04dae10e45529128ea461285d31"
+        },
+        {
+          "sha": "c179d2841de92a40b5e3c545288d2d0b0667cf99",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates dependencies",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/c179d2841de92a40b5e3c545288d2d0b0667cf99"
+        },
+        {
+          "sha": "f2b815af9f11c6b88cb1a7dedd4fd7f5cb85d5fc",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates some view icons",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f2b815af9f11c6b88cb1a7dedd4fd7f5cb85d5fc"
+        },
+        {
+          "sha": "e947d8635b98ca43d44134bec7b1e2a8d1ce1322",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Updates file icon in graph",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/e947d8635b98ca43d44134bec7b1e2a8d1ce1322"
+        },
+        {
+          "sha": "6542771748dba25dbb3f7ed410d96dab6706c5e5",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Bumps graph dependency",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/6542771748dba25dbb3f7ed410d96dab6706c5e5"
+        },
+        {
+          "sha": "9376234b6ec98831409688abb3db04e4639f04f7",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes double encoding still affecting #2336",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/9376234b6ec98831409688abb3db04e4639f04f7"
+        },
+        {
+          "sha": "4698005ad228be6ecf0f12c10267a42641f55376",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Refines subscription & gated feature language",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/4698005ad228be6ecf0f12c10267a42641f55376"
+        },
+        {
+          "sha": "7176959031d75d57654c2e16ee50f1205208c017",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Opens welcome/settings in active tab group",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/7176959031d75d57654c2e16ee50f1205208c017"
+        },
+        {
+          "sha": "0bcb405ff03f0ef9720f9e4b27c92d135db120e3",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds Inspect activity bar icon & rearranges views\nEnables panel layout for Commit Graph by default",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/0bcb405ff03f0ef9720f9e4b27c92d135db120e3"
+        },
+        {
+          "sha": "1df9fab3805afd8d97f4f12e2f762ae90786ec61",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Reworks the timeline to be compact in views\n - Fixes a lot of timeline issues",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/1df9fab3805afd8d97f4f12e2f762ae90786ec61"
+        },
+        {
+          "sha": "26b2ad55314d9cd7bf2f1ae978fe4757a6ffb2b4",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds brand new welcome experience\n\nCo-authored-by: Eric Amodio <eamodio@gmail.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/26b2ad55314d9cd7bf2f1ae978fe4757a6ffb2b4"
+        },
+        {
+          "sha": "dffefeb4116554d7d36e6f1537d9090266c19e01",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds new Account view &  brand new Home experience",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/dffefeb4116554d7d36e6f1537d9090266c19e01"
+        },
+        {
+          "sha": "fdc44e3dc86915a67e750217a117fe5e73dfc2e9",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Renames account to be GitKraken\nAs we prepare for additional cloud-based features",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/fdc44e3dc86915a67e750217a117fe5e73dfc2e9"
+        },
+        {
+          "sha": "b46a6a866866d4d737366ef52e1d9eb7815854da",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Reworks gate components",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/b46a6a866866d4d737366ef52e1d9eb7815854da"
+        },
+        {
+          "sha": "5665be5db7fe572ff91ee1d480a38ca67d453b28",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adopts feature gate component in Focus view",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/5665be5db7fe572ff91ee1d480a38ca67d453b28"
+        },
+        {
+          "sha": "82ae7552dafde7f813bb1a322874b21d57df93a4",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Adds layout resets to graph columns context menu",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/82ae7552dafde7f813bb1a322874b21d57df93a4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-09T10:07:46Z"
+  },
+  {
+    "id": "29643349729",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 13926671410,
+      "size": 123,
+      "distinct_size": 123,
+      "ref": "refs/heads/main",
+      "head": "99da886904c88c2c04a3882506a4211940f79404",
+      "before": "33bc5845d92e22f8e920a3b3f22308c702bfb702",
+      "commits": [
+        {
+          "sha": "4976b43aea0ab6a3ac8662f52f89b4513bbf205e",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Adds files icon for graph changes column",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/4976b43aea0ab6a3ac8662f52f89b4513bbf205e"
+        },
+        {
+          "sha": "44305c8411637a510bb9d893ba54eea7cf9e7423",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds data-placement to all webviews & adds prop",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/44305c8411637a510bb9d893ba54eea7cf9e7423"
+        },
+        {
+          "sha": "29237c49287673d83a388376c310c517e3567ab6",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes persisted state issues",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/29237c49287673d83a388376c310c517e3567ab6"
+        },
+        {
+          "sha": "592fb60bc57bf20b54f6e2f0288b847a080fee57",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Moves throttle and fixes implementation",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/592fb60bc57bf20b54f6e2f0288b847a080fee57"
+        },
+        {
+          "sha": "4a04d6a81ed0a04dae10e45529128ea461285d31",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Enables minimap by default",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/4a04d6a81ed0a04dae10e45529128ea461285d31"
+        },
+        {
+          "sha": "c179d2841de92a40b5e3c545288d2d0b0667cf99",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates dependencies",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/c179d2841de92a40b5e3c545288d2d0b0667cf99"
+        },
+        {
+          "sha": "f2b815af9f11c6b88cb1a7dedd4fd7f5cb85d5fc",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates some view icons",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f2b815af9f11c6b88cb1a7dedd4fd7f5cb85d5fc"
+        },
+        {
+          "sha": "e947d8635b98ca43d44134bec7b1e2a8d1ce1322",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Updates file icon in graph",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/e947d8635b98ca43d44134bec7b1e2a8d1ce1322"
+        },
+        {
+          "sha": "6542771748dba25dbb3f7ed410d96dab6706c5e5",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Bumps graph dependency",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/6542771748dba25dbb3f7ed410d96dab6706c5e5"
+        },
+        {
+          "sha": "9376234b6ec98831409688abb3db04e4639f04f7",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes double encoding still affecting #2336",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/9376234b6ec98831409688abb3db04e4639f04f7"
+        },
+        {
+          "sha": "4698005ad228be6ecf0f12c10267a42641f55376",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Refines subscription & gated feature language",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/4698005ad228be6ecf0f12c10267a42641f55376"
+        },
+        {
+          "sha": "7176959031d75d57654c2e16ee50f1205208c017",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Opens welcome/settings in active tab group",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/7176959031d75d57654c2e16ee50f1205208c017"
+        },
+        {
+          "sha": "0bcb405ff03f0ef9720f9e4b27c92d135db120e3",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds Inspect activity bar icon & rearranges views\nEnables panel layout for Commit Graph by default",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/0bcb405ff03f0ef9720f9e4b27c92d135db120e3"
+        },
+        {
+          "sha": "1df9fab3805afd8d97f4f12e2f762ae90786ec61",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Reworks the timeline to be compact in views\n - Fixes a lot of timeline issues",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/1df9fab3805afd8d97f4f12e2f762ae90786ec61"
+        },
+        {
+          "sha": "26b2ad55314d9cd7bf2f1ae978fe4757a6ffb2b4",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds brand new welcome experience\n\nCo-authored-by: Eric Amodio <eamodio@gmail.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/26b2ad55314d9cd7bf2f1ae978fe4757a6ffb2b4"
+        },
+        {
+          "sha": "dffefeb4116554d7d36e6f1537d9090266c19e01",
+          "author": {
+            "email": "keith.daulton@gitkraken.com",
+            "name": "Keith Daulton"
+          },
+          "message": "Adds new Account view &  brand new Home experience",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/dffefeb4116554d7d36e6f1537d9090266c19e01"
+        },
+        {
+          "sha": "fdc44e3dc86915a67e750217a117fe5e73dfc2e9",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Renames account to be GitKraken\nAs we prepare for additional cloud-based features",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/fdc44e3dc86915a67e750217a117fe5e73dfc2e9"
+        },
+        {
+          "sha": "b46a6a866866d4d737366ef52e1d9eb7815854da",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Reworks gate components",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/b46a6a866866d4d737366ef52e1d9eb7815854da"
+        },
+        {
+          "sha": "5665be5db7fe572ff91ee1d480a38ca67d453b28",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adopts feature gate component in Focus view",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/5665be5db7fe572ff91ee1d480a38ca67d453b28"
+        },
+        {
+          "sha": "82ae7552dafde7f813bb1a322874b21d57df93a4",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Adds layout resets to graph columns context menu",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/82ae7552dafde7f813bb1a322874b21d57df93a4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-06-09T10:07:45Z"
+  },
+  {
+    "id": "29365083892",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2023-05-28T15:17:40Z"
+  },
+  {
+    "id": "29362435150",
+    "type": "PushEvent",
+    "actor": {
+      "id": 131967130,
+      "login": "Devlynnx",
+      "display_login": "Devlynnx",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Devlynnx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131967130?"
+    },
+    "repo": {
+      "id": 643140938,
+      "name": "Devlynnx/vscode-gitlens",
+      "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens"
+    },
+    "payload": {
+      "repository_id": 643140938,
+      "push_id": 13785688328,
+      "size": 19,
+      "distinct_size": 19,
+      "ref": "refs/heads/main",
+      "head": "33bc5845d92e22f8e920a3b3f22308c702bfb702",
+      "before": "3dc99b88f62e837ea3a74c661985824510b2b251",
+      "commits": [
+        {
+          "sha": "79ec0b62fbdd01a3ef58e26469e23b136e75c174",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Avoids dynamic execution in string interpolation\nOptimizes and caches `getTokensFromTemplate`",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/79ec0b62fbdd01a3ef58e26469e23b136e75c174"
+        },
+        {
+          "sha": "254691392cc57be7fc4d559d85070b137c80f23a",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates TypeScript & other dependencies",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/254691392cc57be7fc4d559d85070b137c80f23a"
+        },
+        {
+          "sha": "bf4f85435fb944432b703a1a4816d500f61792ed",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Defers possibly duplicate repo scans at startup\n - Waits until repo discovery is complete before attempting to find other repos",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/bf4f85435fb944432b703a1a4816d500f61792ed"
+        },
+        {
+          "sha": "493ab352ca2fcf9b8a6a1abfb3b11bf835db0b22",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes #2680 detects env shell for proper command",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/493ab352ca2fcf9b8a6a1abfb3b11bf835db0b22"
+        },
+        {
+          "sha": "354b625f51f2115c22705bebecdb09ec08c370e4",
+          "author": {
+            "email": "ramin.tadayon@gitkraken.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Updates graph dependency",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/354b625f51f2115c22705bebecdb09ec08c370e4"
+        },
+        {
+          "sha": "0439d723e2fa3d25d2b61a2c8afd8befadfbe9d7",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Defers Graph stats loading for Changes/minimap\nImproves the Graph minimap\n  - Adds `gitlens.graph.minimap.dataType` setting to choose between commits or lines changed to be used for the minimap\n  - Adds a configuration popover for the minimap\n  - Adds a legend to the minimap\n  - Removes minimap from being experimental\n    - Renames `gitlens.graph.experimental.minimap.enabled` to `gitlens.graph.minimap.enabled`\n    - Renames `gitlens.graph.experimental.minimap.additionalTypes` to `gitlens.graph.minimap.additionalTypes`",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/0439d723e2fa3d25d2b61a2c8afd8befadfbe9d7"
+        },
+        {
+          "sha": "f68d51a96ed5003d5697406c4095bf35ec20e729",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Updates dependencies",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/f68d51a96ed5003d5697406c4095bf35ec20e729"
+        },
+        {
+          "sha": "fe5d12f93f825d4e8d5228bfd8fe449600877492",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Logs env.language at startup",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/fe5d12f93f825d4e8d5228bfd8fe449600877492"
+        },
+        {
+          "sha": "d18f05b64bc2a3e02feb836889b73cec935ac79f",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds webview focus/blur events\nConverts search-input to use pop-menu\nCloses pop-menu's on webview blur",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d18f05b64bc2a3e02feb836889b73cec935ac79f"
+        },
+        {
+          "sha": "c119badd95491707ba2cc4fc611871c939905c13",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Refines minimap options",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/c119badd95491707ba2cc4fc611871c939905c13"
+        },
+        {
+          "sha": "ed5f240b0ffab20aa7128738593f61fa7c19f7c9",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Fixes #2336 adds *_encoded tokens for more control",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/ed5f240b0ffab20aa7128738593f61fa7c19f7c9"
+        },
+        {
+          "sha": "d5c99fe4bd0333f7d0f56d8904712771690ff5e9",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Removes bogus import",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d5c99fe4bd0333f7d0f56d8904712771690ff5e9"
+        },
+        {
+          "sha": "097e70407f160c45c3dccbd4f2c6ac728470dc08",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Switches to better /subscription url",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/097e70407f160c45c3dccbd4f2c6ac728470dc08"
+        },
+        {
+          "sha": "ba0aa6eb4dfcce8c2d6ccee0642a3ba21ce207b3",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds better log caching for timeline",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/ba0aa6eb4dfcce8c2d6ccee0642a3ba21ce207b3"
+        },
+        {
+          "sha": "06c024360495edb12a8baf17bd54a301750c99c4",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Closes #2690 adds full history option to timeline",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/06c024360495edb12a8baf17bd54a301750c99c4"
+        },
+        {
+          "sha": "27f3556d61e5c09531fc2ec4b07d3ff9c0dceeae",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Adds progress indicator to timeline",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/27f3556d61e5c09531fc2ec4b07d3ff9c0dceeae"
+        },
+        {
+          "sha": "97b6db7d9a1b86d9f8972a11ec85fc160940d0ae",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Reworks webview serialized state\nAdds selected repo restoration to Commit Graph\nAdds commit restoration to Commit Details\nAdds file/period restoration to timeline",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/97b6db7d9a1b86d9f8972a11ec85fc160940d0ae"
+        },
+        {
+          "sha": "d8a44151342e68e147fc1326234ca93967d1f2bb",
+          "author": {
+            "email": "67011668+axosoft-ramint@users.noreply.github.com",
+            "name": "Ramin Tadayon"
+          },
+          "message": "Adds support for Clone, Fetch, and Remote Add to Deep Link service (#2686)\n\n* Adds remote adding and fetch support to deep links\r\n\r\n* Adds very basic cloning support\r\n\r\n* Adds clone support to deep links\r\n\r\n* Reverts fetch change (may cause regressions)\r\n\r\n* Changes clone to be optional\r\n\r\n* Renames \"clone repository\" option to \"clone\"\r\n\r\n---------\r\n\r\nCo-authored-by: Eric Amodio <eamodio@gmail.com>",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/d8a44151342e68e147fc1326234ca93967d1f2bb"
+        },
+        {
+          "sha": "33bc5845d92e22f8e920a3b3f22308c702bfb702",
+          "author": {
+            "email": "eamodio@gmail.com",
+            "name": "Eric Amodio"
+          },
+          "message": "Changes missing repo id to `-` in deeplinks",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Devlynnx/vscode-gitlens/commits/33bc5845d92e22f8e920a3b3f22308c702bfb702"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2023-05-28T09:34:30Z"
+  }
+]
