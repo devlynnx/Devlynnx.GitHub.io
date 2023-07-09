@@ -1,0 +1,27 @@
+2023-05-01T12:14:21.5670685Z Current runner version: '2.303.0'
+2023-05-01T12:14:21.5699172Z ##[group]Operating System
+2023-05-01T12:14:21.5699773Z Ubuntu
+2023-05-01T12:14:21.5700035Z 22.04.2
+2023-05-01T12:14:21.5700354Z LTS
+2023-05-01T12:14:21.5700773Z ##[endgroup]
+2023-05-01T12:14:21.5701051Z ##[group]Runner Image
+2023-05-01T12:14:21.5701403Z Image: ubuntu-22.04
+2023-05-01T12:14:21.5701730Z Version: 20230426.1
+2023-05-01T12:14:21.5702199Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20230426.1/images/linux/Ubuntu2204-Readme.md
+2023-05-01T12:14:21.5702897Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20230426.1
+2023-05-01T12:14:21.5703342Z ##[endgroup]
+2023-05-01T12:14:21.5703692Z ##[group]Runner Image Provisioner
+2023-05-01T12:14:21.5703983Z 2.0.161.1
+2023-05-01T12:14:21.5704318Z ##[endgroup]
+2023-05-01T12:14:21.5704960Z ##[group]GITHUB_TOKEN Permissions
+2023-05-01T12:14:21.5705496Z Contents: read
+2023-05-01T12:14:21.5705822Z Metadata: read
+2023-05-01T12:14:21.5706188Z Packages: read
+2023-05-01T12:14:21.5706806Z ##[endgroup]
+2023-05-01T12:14:21.5710518Z Secret source: Actions
+2023-05-01T12:14:21.5711065Z Prepare workflow directory
+2023-05-01T12:14:21.6434871Z Prepare all required actions
+2023-05-01T12:14:21.6620142Z Getting action download info
+2023-05-01T12:14:21.8388715Z Download action repository 'actions/checkout@v2' (SHA:ee0669bd1cc54295c223e0bb666b733df41de1c5)
+2023-05-01T12:14:22.1836478Z Download action repository 'excitedleigh/setup-nox@v2.0.0' (SHA:38c698655f40d5fe659b8589764ed04ee36d0414)
+2023-05-01T12:14:22.5120337Z Complete job name: Run Nox (parametrized_display_name(one))

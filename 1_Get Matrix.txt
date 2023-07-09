@@ -1,0 +1,217 @@
+2023-05-01T12:13:54.8479361Z Requested labels: ubuntu-latest
+2023-05-01T12:13:54.8479753Z Job defined at: Devlynnx/nox-build-matrix/.github/workflows/test.yml@refs/heads/main
+2023-05-01T12:13:54.8479921Z Waiting for a runner to pick up this job...
+2023-05-01T12:13:56.2858947Z Job is waiting for a hosted runner to come online.
+2023-05-01T12:13:57.8725610Z Job is about to start running on the hosted runner: GitHub Actions 1 (hosted)
+2023-05-01T12:13:59.9958850Z Current runner version: '2.303.0'
+2023-05-01T12:13:59.9986261Z ##[group]Operating System
+2023-05-01T12:13:59.9986901Z Ubuntu
+2023-05-01T12:13:59.9987152Z 22.04.2
+2023-05-01T12:13:59.9987442Z LTS
+2023-05-01T12:13:59.9987742Z ##[endgroup]
+2023-05-01T12:13:59.9988030Z ##[group]Runner Image
+2023-05-01T12:13:59.9988439Z Image: ubuntu-22.04
+2023-05-01T12:13:59.9988770Z Version: 20230426.1
+2023-05-01T12:13:59.9989232Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20230426.1/images/linux/Ubuntu2204-Readme.md
+2023-05-01T12:13:59.9989878Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20230426.1
+2023-05-01T12:13:59.9990355Z ##[endgroup]
+2023-05-01T12:13:59.9990708Z ##[group]Runner Image Provisioner
+2023-05-01T12:13:59.9990996Z 2.0.161.1
+2023-05-01T12:13:59.9991291Z ##[endgroup]
+2023-05-01T12:13:59.9991940Z ##[group]GITHUB_TOKEN Permissions
+2023-05-01T12:13:59.9992509Z Contents: read
+2023-05-01T12:13:59.9992834Z Metadata: read
+2023-05-01T12:13:59.9993366Z Packages: read
+2023-05-01T12:13:59.9993817Z ##[endgroup]
+2023-05-01T12:13:59.9997955Z Secret source: Actions
+2023-05-01T12:13:59.9998500Z Prepare workflow directory
+2023-05-01T12:14:00.0737910Z Prepare all required actions
+2023-05-01T12:14:00.0925312Z Getting action download info
+2023-05-01T12:14:00.3352355Z Download action repository 'actions/checkout@v2' (SHA:ee0669bd1cc54295c223e0bb666b733df41de1c5)
+2023-05-01T12:14:00.7866922Z Complete job name: Get Matrix
+2023-05-01T12:14:00.9157597Z ##[group]Run actions/checkout@v2
+2023-05-01T12:14:00.9157979Z with:
+2023-05-01T12:14:00.9158284Z   repository: Devlynnx/nox-build-matrix
+2023-05-01T12:14:00.9158869Z   token: ***
+2023-05-01T12:14:00.9159150Z   ssh-strict: true
+2023-05-01T12:14:00.9159463Z   persist-credentials: true
+2023-05-01T12:14:00.9159756Z   clean: true
+2023-05-01T12:14:00.9160025Z   fetch-depth: 1
+2023-05-01T12:14:00.9160286Z   lfs: false
+2023-05-01T12:14:00.9160532Z   submodules: false
+2023-05-01T12:14:00.9160833Z   set-safe-directory: true
+2023-05-01T12:14:00.9161154Z ##[endgroup]
+2023-05-01T12:14:01.1924488Z Syncing repository: Devlynnx/nox-build-matrix
+2023-05-01T12:14:01.1926490Z ##[group]Getting Git version info
+2023-05-01T12:14:01.1927041Z Working directory is '/home/runner/work/nox-build-matrix/nox-build-matrix'
+2023-05-01T12:14:01.1928656Z [command]/usr/bin/git version
+2023-05-01T12:14:01.2054079Z git version 2.40.1
+2023-05-01T12:14:01.2076446Z ##[endgroup]
+2023-05-01T12:14:01.2093322Z Temporarily overriding HOME='/home/runner/work/_temp/dc0f56e4-e88b-468d-aad6-72b3c78c03f5' before making global git config changes
+2023-05-01T12:14:01.2093816Z Adding repository directory to the temporary git global config as a safe directory
+2023-05-01T12:14:01.2095180Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/nox-build-matrix/nox-build-matrix
+2023-05-01T12:14:01.2141651Z Deleting the contents of '/home/runner/work/nox-build-matrix/nox-build-matrix'
+2023-05-01T12:14:01.2146123Z ##[group]Initializing the repository
+2023-05-01T12:14:01.2149950Z [command]/usr/bin/git init /home/runner/work/nox-build-matrix/nox-build-matrix
+2023-05-01T12:14:01.2227487Z hint: Using 'master' as the name for the initial branch. This default branch name
+2023-05-01T12:14:01.2228186Z hint: is subject to change. To configure the initial branch name to use in all
+2023-05-01T12:14:01.2229010Z hint: of your new repositories, which will suppress this warning, call:
+2023-05-01T12:14:01.2229500Z hint: 
+2023-05-01T12:14:01.2230560Z hint: 	git config --global init.defaultBranch <name>
+2023-05-01T12:14:01.2231035Z hint: 
+2023-05-01T12:14:01.2231786Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2023-05-01T12:14:01.2232464Z hint: 'development'. The just-created branch can be renamed via this command:
+2023-05-01T12:14:01.2233138Z hint: 
+2023-05-01T12:14:01.2233599Z hint: 	git branch -m <name>
+2023-05-01T12:14:01.2240721Z Initialized empty Git repository in /home/runner/work/nox-build-matrix/nox-build-matrix/.git/
+2023-05-01T12:14:01.2250781Z [command]/usr/bin/git remote add origin https://github.com/Devlynnx/nox-build-matrix
+2023-05-01T12:14:01.2290259Z ##[endgroup]
+2023-05-01T12:14:01.2291056Z ##[group]Disabling automatic garbage collection
+2023-05-01T12:14:01.2294208Z [command]/usr/bin/git config --local gc.auto 0
+2023-05-01T12:14:01.2324676Z ##[endgroup]
+2023-05-01T12:14:01.2325392Z ##[group]Setting up auth
+2023-05-01T12:14:01.2332094Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2023-05-01T12:14:01.2365145Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2023-05-01T12:14:01.2747968Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2023-05-01T12:14:01.2781734Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2023-05-01T12:14:01.3006795Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2023-05-01T12:14:01.3045941Z ##[endgroup]
+2023-05-01T12:14:01.3046825Z ##[group]Fetching the repository
+2023-05-01T12:14:01.3053933Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +fcdde2dfa4187bc90d115d22551f70c5f1983de9:refs/remotes/origin/main
+2023-05-01T12:14:01.5675983Z remote: Enumerating objects: 17, done.        
+2023-05-01T12:14:01.5682785Z remote: Counting objects:   5% (1/17)        
+2023-05-01T12:14:01.5683899Z remote: Counting objects:  11% (2/17)        
+2023-05-01T12:14:01.5684462Z remote: Counting objects:  17% (3/17)        
+2023-05-01T12:14:01.5685252Z remote: Counting objects:  23% (4/17)        
+2023-05-01T12:14:01.5685986Z remote: Counting objects:  29% (5/17)        
+2023-05-01T12:14:01.5687299Z remote: Counting objects:  35% (6/17)        
+2023-05-01T12:14:01.5688746Z remote: Counting objects:  41% (7/17)        
+2023-05-01T12:14:01.5689255Z remote: Counting objects:  47% (8/17)        
+2023-05-01T12:14:01.5689859Z remote: Counting objects:  52% (9/17)        
+2023-05-01T12:14:01.5690430Z remote: Counting objects:  58% (10/17)        
+2023-05-01T12:14:01.5691053Z remote: Counting objects:  64% (11/17)        
+2023-05-01T12:14:01.5691689Z remote: Counting objects:  70% (12/17)        
+2023-05-01T12:14:01.5692376Z remote: Counting objects:  76% (13/17)        
+2023-05-01T12:14:01.5692943Z remote: Counting objects:  82% (14/17)        
+2023-05-01T12:14:01.5693562Z remote: Counting objects:  88% (15/17)        
+2023-05-01T12:14:01.5694319Z remote: Counting objects:  94% (16/17)        
+2023-05-01T12:14:01.5694989Z remote: Counting objects: 100% (17/17)        
+2023-05-01T12:14:01.5696776Z remote: Counting objects: 100% (17/17), done.        
+2023-05-01T12:14:01.5697800Z remote: Compressing objects:   7% (1/14)        
+2023-05-01T12:14:01.5698324Z remote: Compressing objects:  14% (2/14)        
+2023-05-01T12:14:01.5698947Z remote: Compressing objects:  21% (3/14)        
+2023-05-01T12:14:01.5699596Z remote: Compressing objects:  28% (4/14)        
+2023-05-01T12:14:01.5700251Z remote: Compressing objects:  35% (5/14)        
+2023-05-01T12:14:01.5700893Z remote: Compressing objects:  42% (6/14)        
+2023-05-01T12:14:01.5701514Z remote: Compressing objects:  50% (7/14)        
+2023-05-01T12:14:01.5702150Z remote: Compressing objects:  57% (8/14)        
+2023-05-01T12:14:01.5702756Z remote: Compressing objects:  64% (9/14)        
+2023-05-01T12:14:01.5703379Z remote: Compressing objects:  71% (10/14)        
+2023-05-01T12:14:01.5704255Z remote: Compressing objects:  78% (11/14)        
+2023-05-01T12:14:01.5704898Z remote: Compressing objects:  85% (12/14)        
+2023-05-01T12:14:01.5705581Z remote: Compressing objects:  92% (13/14)        
+2023-05-01T12:14:01.5706221Z remote: Compressing objects: 100% (14/14)        
+2023-05-01T12:14:01.5706879Z remote: Compressing objects: 100% (14/14), done.        
+2023-05-01T12:14:01.5757264Z remote: Total 17 (delta 1), reused 4 (delta 0), pack-reused 0        
+2023-05-01T12:14:01.5828861Z From https://github.com/Devlynnx/nox-build-matrix
+2023-05-01T12:14:01.5829723Z  * [new ref]         fcdde2dfa4187bc90d115d22551f70c5f1983de9 -> origin/main
+2023-05-01T12:14:01.5858977Z ##[endgroup]
+2023-05-01T12:14:01.5859775Z ##[group]Determining the checkout info
+2023-05-01T12:14:01.5860723Z ##[endgroup]
+2023-05-01T12:14:01.5861341Z ##[group]Checking out the ref
+2023-05-01T12:14:01.5865756Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2023-05-01T12:14:01.5919481Z Switched to a new branch 'main'
+2023-05-01T12:14:01.5920139Z branch 'main' set up to track 'origin/main'.
+2023-05-01T12:14:01.5925978Z ##[endgroup]
+2023-05-01T12:14:01.5968951Z [command]/usr/bin/git log -1 --format='%H'
+2023-05-01T12:14:01.5996903Z 'fcdde2dfa4187bc90d115d22551f70c5f1983de9'
+2023-05-01T12:14:01.6386143Z ##[group]Run ./
+2023-05-01T12:14:01.6386404Z with:
+2023-05-01T12:14:01.6386617Z   noxfile: test/noxfile.py
+2023-05-01T12:14:01.6386849Z   keywords: not ignored
+2023-05-01T12:14:01.6387047Z ##[endgroup]
+2023-05-01T12:14:01.6563954Z ##[group]Building docker image
+2023-05-01T12:14:01.6564343Z Dockerfile for action: '/home/runner/work/nox-build-matrix/nox-build-matrix/./Dockerfile'.
+2023-05-01T12:14:01.6580071Z ##[command]/usr/bin/docker build -t 6c0442:33becab96daa523ff69398091d787775 -f "/home/runner/work/nox-build-matrix/nox-build-matrix/./Dockerfile" "/home/runner/work/nox-build-matrix/nox-build-matrix"
+2023-05-01T12:14:01.8988179Z Sending build context to Docker daemon  121.9kB
+2023-05-01T12:14:01.8988473Z 
+2023-05-01T12:14:01.9392200Z Step 1/5 : FROM python:3.9-alpine
+2023-05-01T12:14:02.2163714Z 3.9-alpine: Pulling from library/python
+2023-05-01T12:14:02.3705962Z f56be85fc22e: Already exists
+2023-05-01T12:14:02.4058417Z ea5757f4b3f8: Pulling fs layer
+2023-05-01T12:14:02.4104096Z f7a8af4d5a06: Pulling fs layer
+2023-05-01T12:14:02.4104976Z 44c9399aefe6: Pulling fs layer
+2023-05-01T12:14:02.4105216Z 80449c5f7a91: Pulling fs layer
+2023-05-01T12:14:02.4105584Z 80449c5f7a91: Waiting
+2023-05-01T12:14:02.4843235Z 44c9399aefe6: Verifying Checksum
+2023-05-01T12:14:02.4844132Z 44c9399aefe6: Download complete
+2023-05-01T12:14:02.5040009Z ea5757f4b3f8: Verifying Checksum
+2023-05-01T12:14:02.5041051Z ea5757f4b3f8: Download complete
+2023-05-01T12:14:02.5880517Z f7a8af4d5a06: Verifying Checksum
+2023-05-01T12:14:02.5880986Z f7a8af4d5a06: Download complete
+2023-05-01T12:14:02.6143553Z 80449c5f7a91: Verifying Checksum
+2023-05-01T12:14:02.6144046Z 80449c5f7a91: Download complete
+2023-05-01T12:14:02.9753065Z ea5757f4b3f8: Pull complete
+2023-05-01T12:14:03.5479222Z f7a8af4d5a06: Pull complete
+2023-05-01T12:14:03.6008389Z 44c9399aefe6: Pull complete
+2023-05-01T12:14:03.8591136Z 80449c5f7a91: Pull complete
+2023-05-01T12:14:03.8636015Z Digest: sha256:a8d325f07e571fbadcffdf9fc6c06eda9cf3a501584d432b73b8e3db179b4e3c
+2023-05-01T12:14:03.8654958Z Status: Downloaded newer image for python:3.9-alpine
+2023-05-01T12:14:03.8670574Z  ---> d38cf7bdf261
+2023-05-01T12:14:03.8670870Z Step 2/5 : COPY entrypoint.py /entrypoint.py
+2023-05-01T12:14:04.0984386Z  ---> fc4205cf340f
+2023-05-01T12:14:04.0984724Z Step 3/5 : COPY requirements.txt /requirements.txt
+2023-05-01T12:14:05.0147442Z  ---> aa1131f3486a
+2023-05-01T12:14:05.0147785Z Step 4/5 : RUN pip install -r /requirements.txt
+2023-05-01T12:14:05.0379236Z  ---> Running in 80cddc84b48b
+2023-05-01T12:14:08.3430792Z Collecting nox==2020.12.31
+2023-05-01T12:14:08.4180626Z   Downloading nox-2020.12.31-py3-none-any.whl (45 kB)
+2023-05-01T12:14:08.4327447Z      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.1/45.1 KB 3.2 MB/s eta 0:00:00
+2023-05-01T12:14:08.4833385Z Collecting colorlog<5.0.0,>=2.6.1
+2023-05-01T12:14:08.4923823Z   Downloading colorlog-4.8.0-py2.py3-none-any.whl (10 kB)
+2023-05-01T12:14:08.5324771Z Collecting py<2.0.0,>=1.4.0
+2023-05-01T12:14:08.5402816Z   Downloading py-1.11.0-py2.py3-none-any.whl (98 kB)
+2023-05-01T12:14:08.5524366Z      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.7/98.7 KB 11.6 MB/s eta 0:00:00
+2023-05-01T12:14:08.6039959Z Collecting argcomplete<2.0,>=1.9.4
+2023-05-01T12:14:08.6136043Z   Downloading argcomplete-1.12.3-py2.py3-none-any.whl (38 kB)
+2023-05-01T12:14:08.7574149Z Collecting virtualenv>=14.0.0
+2023-05-01T12:14:08.7654421Z   Downloading virtualenv-20.23.0-py3-none-any.whl (3.3 MB)
+2023-05-01T12:14:08.8119956Z      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 75.9 MB/s eta 0:00:00
+2023-05-01T12:14:08.8923920Z Collecting filelock<4,>=3.11
+2023-05-01T12:14:08.9002263Z   Downloading filelock-3.12.0-py3-none-any.whl (10 kB)
+2023-05-01T12:14:08.9359860Z Collecting platformdirs<4,>=3.2
+2023-05-01T12:14:08.9435022Z   Downloading platformdirs-3.5.0-py3-none-any.whl (15 kB)
+2023-05-01T12:14:08.9643139Z Collecting distlib<1,>=0.3.6
+2023-05-01T12:14:08.9721511Z   Downloading distlib-0.3.6-py2.py3-none-any.whl (468 kB)
+2023-05-01T12:14:08.9819697Z      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 468.5/468.5 KB 68.3 MB/s eta 0:00:00
+2023-05-01T12:14:09.1185204Z Installing collected packages: distlib, colorlog, argcomplete, py, platformdirs, filelock, virtualenv, nox
+2023-05-01T12:14:09.5719239Z Successfully installed argcomplete-1.12.3 colorlog-4.8.0 distlib-0.3.6 filelock-3.12.0 nox-2020.12.31 platformdirs-3.5.0 py-1.11.0 virtualenv-20.23.0
+2023-05-01T12:14:09.5720052Z [91mWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv
+2023-05-01T12:14:09.7006528Z [0m[91mWARNING: You are using pip version 22.0.4; however, version 23.1.2 is available.
+2023-05-01T12:14:09.7007101Z You should consider upgrading via the '/usr/local/bin/python -m pip install --upgrade pip' command.
+2023-05-01T12:14:10.4380335Z [0mRemoving intermediate container 80cddc84b48b
+2023-05-01T12:14:10.4380659Z  ---> 409c49088bc7
+2023-05-01T12:14:10.4380964Z Step 5/5 : ENTRYPOINT [ "python", "/entrypoint.py" ]
+2023-05-01T12:14:10.4529664Z  ---> Running in a60779c50838
+2023-05-01T12:14:11.0191867Z Removing intermediate container a60779c50838
+2023-05-01T12:14:11.0192295Z  ---> b17d35051b41
+2023-05-01T12:14:11.0209890Z Successfully built b17d35051b41
+2023-05-01T12:14:11.0276329Z Successfully tagged 6c0442:33becab96daa523ff69398091d787775
+2023-05-01T12:14:11.0299030Z ##[endgroup]
+2023-05-01T12:14:11.0442135Z ##[command]/usr/bin/docker run --name c044233becab96daa523ff69398091d787775_ddcb7f --label 6c0442 --workdir /github/workspace --rm -e "INPUT_NOXFILE" -e "INPUT_KEYWORDS" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/nox-build-matrix/nox-build-matrix":"/github/workspace" 6c0442:33becab96daa523ff69398091d787775  "test/noxfile.py" "not ignored"
+2023-05-01T12:14:11.3656592Z ##[warning]The `set-output` command is deprecated and will be disabled soon. Please upgrade to using Environment Files. For more information see: https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/
+2023-05-01T12:14:11.5147082Z Post job cleanup.
+2023-05-01T12:14:11.6472770Z [command]/usr/bin/git version
+2023-05-01T12:14:11.6526526Z git version 2.40.1
+2023-05-01T12:14:11.6563377Z Temporarily overriding HOME='/home/runner/work/_temp/29f97544-edc4-41c5-9528-3f1b8ac7e79a' before making global git config changes
+2023-05-01T12:14:11.6564068Z Adding repository directory to the temporary git global config as a safe directory
+2023-05-01T12:14:11.6568670Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/nox-build-matrix/nox-build-matrix
+2023-05-01T12:14:11.6621999Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2023-05-01T12:14:11.6654413Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2023-05-01T12:14:11.6897347Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2023-05-01T12:14:11.6916905Z http.https://github.com/.extraheader
+2023-05-01T12:14:11.6924858Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2023-05-01T12:14:11.6961114Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2023-05-01T12:14:11.7410228Z Evaluate and set job outputs
+2023-05-01T12:14:11.7424500Z Set output 'matrix'
+2023-05-01T12:14:11.7425790Z Cleaning up orphan processes

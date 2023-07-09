@@ -1,0 +1,7 @@
+2023-05-01T12:14:25.8426825Z ##[group]Run nox -s "parametrized_display_name(one)" -f test/noxfile.py
+2023-05-01T12:14:25.8427296Z [36;1mnox -s "parametrized_display_name(one)" -f test/noxfile.py[0m
+2023-05-01T12:14:25.8493772Z shell: /usr/bin/bash -e {0}
+2023-05-01T12:14:25.8494038Z ##[endgroup]
+2023-05-01T12:14:25.9839909Z nox > Running session parametrized_display_name(one)
+2023-05-01T12:14:25.9963013Z nox > Creating virtual environment (virtualenv) using python3.9 in .nox/parametrized_display_name-one
+2023-05-01T12:14:26.6965515Z nox > Session parametrized_display_name(one) was successful.
