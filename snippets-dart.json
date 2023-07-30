@@ -1,0 +1,65 @@
+{
+	"Flutter Stateful": {
+		"prefix": "flful",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+      "class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}} extends StatefulWidget {",
+			"  const ${1:MyWidget}({super.key});",
+      "",
+      "  @override",
+      "  State<${1}> createState() => _${1}State();",
+      "}",
+      "",
+      "class _${1}State extends State<${1}> {",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    // TODO: ${1} Implement build method.",
+			"    return const Scaffold(",
+			"      body: Center(",
+			"       child: Text('${1}'),",
+			"     ),",
+			"    );",
+      "  }",
+      "}"
+		],
+	},
+	"Flutter Stateless": {
+		"prefix": "flss",
+		"body": [
+			"import 'package:flutter/material.dart';",
+			"",
+			"class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}} extends StatelessWidget {",
+			"  const ${1:MyWidget}({super.key});",
+			"",
+			"  @override",
+			"  Widget build(BuildContext context) {",
+			"    // TODO: ${1} Implement build method.",
+			"    return const Scaffold(",
+			"      body: Center(",
+			"       child: Text('${1}'),",
+			"     ),",
+			"    );",
+			"  }",
+			"}"
+		],
+	},
+	"Color scheme": {
+		"prefix": "flcolor",
+		"body": [
+			"final colors = Theme.of(context).colorScheme;",
+		],
+	},
+	"Size device": {
+		"prefix": "flmediaQuery",
+		"body": [
+			"final size = MediaQuery.of(context).size;",
+		],
+	},
+	"Text Theme": {
+		"prefix": "flstyleText",
+		"body": [
+			"final style = Theme.of(context).textTheme;",
+		],
+	},
+}
