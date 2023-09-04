@@ -1,0 +1,84 @@
+2023-07-28T08:04:14.7243950Z ##[group]Run actions/upload-pages-artifact@v1
+2023-07-28T08:04:14.7244292Z with:
+2023-07-28T08:04:14.7244486Z   name: github-pages
+2023-07-28T08:04:14.7244708Z   path: _site/
+2023-07-28T08:04:14.7244923Z   retention-days: 1
+2023-07-28T08:04:14.7245127Z env:
+2023-07-28T08:04:14.7245325Z   GITHUB_PAGES: true
+2023-07-28T08:04:14.7245538Z ##[endgroup]
+2023-07-28T08:04:14.7601414Z ##[group]Run chmod -c -R +rX "$INPUT_PATH" | while read line; do
+2023-07-28T08:04:14.7602672Z [36;1mchmod -c -R +rX "$INPUT_PATH" | while read line; do[0m
+2023-07-28T08:04:14.7603107Z [36;1m  echo "::warning title=Invalid file permissions automatically fixed::$line"[0m
+2023-07-28T08:04:14.7603446Z [36;1mdone[0m
+2023-07-28T08:04:14.7603653Z [36;1mtar \[0m
+2023-07-28T08:04:14.7603939Z [36;1m  --dereference --hard-dereference \[0m
+2023-07-28T08:04:14.7604259Z [36;1m  --directory "$INPUT_PATH" \[0m
+2023-07-28T08:04:14.7604551Z [36;1m  -cvf "$RUNNER_TEMP/artifact.tar" \[0m
+2023-07-28T08:04:14.7604842Z [36;1m  --exclude=.git \[0m
+2023-07-28T08:04:14.7605161Z [36;1m  --exclude=.github \[0m
+2023-07-28T08:04:14.7605404Z [36;1m  .[0m
+2023-07-28T08:04:14.7673243Z shell: /usr/bin/sh -e {0}
+2023-07-28T08:04:14.7673503Z env:
+2023-07-28T08:04:14.7674052Z   GITHUB_PAGES: true
+2023-07-28T08:04:14.7674270Z   INPUT_PATH: _site/
+2023-07-28T08:04:14.7674482Z ##[endgroup]
+2023-07-28T08:04:14.7862220Z chmod: changing permissions of '_site/': Operation not permitted
+2023-07-28T08:04:14.7864983Z chmod: changing permissions of '_site/index.html': Operation not permitted
+2023-07-28T08:04:14.7876456Z chmod: changing permissions of '_site/1_Set up job.txt': Operation not permitted
+2023-07-28T08:04:14.7877049Z chmod: changing permissions of '_site/events (4).json': Operation not permitted
+2023-07-28T08:04:14.7877955Z chmod: changing permissions of '_site/astro.yml.txt': Operation not permitted
+2023-07-28T08:04:14.7878477Z chmod: changing permissions of '_site/events (1).json': Operation not permitted
+2023-07-28T08:04:14.7879014Z chmod: changing permissions of '_site/1_Get Matrix.txt': Operation not permitted
+2023-07-28T08:04:14.7879560Z chmod: changing permissions of '_site/meta.json': Operation not permitted
+2023-07-28T08:04:14.7881092Z chmod: changing permissions of '_site/4_Run session.txt': Operation not permitted
+2023-07-28T08:04:14.7881682Z chmod: changing permissions of '_site/events.json': Operation not permitted
+2023-07-28T08:04:14.7882233Z chmod: changing permissions of '_site/events (3).json': Operation not permitted
+2023-07-28T08:04:14.7882751Z chmod: changing permissions of '_site/README.md': Operation not permitted
+2023-07-28T08:04:14.7883276Z chmod: changing permissions of '_site/github-pages.zip': Operation not permitted
+2023-07-28T08:04:14.7883804Z chmod: changing permissions of '_site/assets': Operation not permitted
+2023-07-28T08:04:14.7884313Z chmod: changing permissions of '_site/assets/css': Operation not permitted
+2023-07-28T08:04:14.7884828Z chmod: changing permissions of '_site/assets/css/style.css': Operation not permitted
+2023-07-28T08:04:14.7885373Z chmod: changing permissions of '_site/events (2).json': Operation not permitted
+2023-07-28T08:04:14.7885888Z chmod: changing permissions of '_site/index.json': Operation not permitted
+2023-07-28T08:04:14.7917727Z ./
+2023-07-28T08:04:14.7918018Z ./index.html
+2023-07-28T08:04:14.7918259Z ./1_Set up job.txt
+2023-07-28T08:04:14.7918492Z ./events (4).json
+2023-07-28T08:04:14.7918708Z ./astro.yml.txt
+2023-07-28T08:04:14.7918935Z ./events (1).json
+2023-07-28T08:04:14.7919161Z ./1_Get Matrix.txt
+2023-07-28T08:04:14.7919365Z ./meta.json
+2023-07-28T08:04:14.7919587Z ./4_Run session.txt
+2023-07-28T08:04:14.7919812Z ./events.json
+2023-07-28T08:04:14.7920018Z ./events (3).json
+2023-07-28T08:04:14.7920239Z ./README.md
+2023-07-28T08:04:14.7920593Z ./github-pages.zip
+2023-07-28T08:04:14.7920815Z ./assets/
+2023-07-28T08:04:14.7921028Z ./assets/css/
+2023-07-28T08:04:14.7921256Z ./assets/css/style.css
+2023-07-28T08:04:14.7921477Z ./events (2).json
+2023-07-28T08:04:14.7921698Z ./index.json
+2023-07-28T08:04:14.8041076Z ##[group]Run actions/upload-artifact@v3
+2023-07-28T08:04:14.8041368Z with:
+2023-07-28T08:04:14.8041582Z   name: github-pages
+2023-07-28T08:04:14.8041871Z   path: /home/runner/work/_temp/artifact.tar
+2023-07-28T08:04:14.8042173Z   retention-days: 1
+2023-07-28T08:04:14.8042448Z   if-no-files-found: error
+2023-07-28T08:04:14.8042675Z env:
+2023-07-28T08:04:14.8042896Z   GITHUB_PAGES: true
+2023-07-28T08:04:14.8043285Z ##[endgroup]
+2023-07-28T08:04:14.8999083Z With the provided path, there will be 1 file uploaded
+2023-07-28T08:04:14.9004854Z Starting artifact upload
+2023-07-28T08:04:14.9005953Z For more detailed logs during the artifact upload process, enable step-debugging: https://docs.github.com/actions/monitoring-and-troubleshooting-workflows/enabling-debug-logging#enabling-step-debug-logging
+2023-07-28T08:04:14.9006642Z Artifact name is valid!
+2023-07-28T08:04:15.0360013Z Container for artifact "github-pages" successfully created. Starting upload of file(s)
+2023-07-28T08:04:15.2760184Z Total size of all the files uploaded is 90747 bytes
+2023-07-28T08:04:15.2764896Z File upload process has finished. Finalizing the artifact upload
+2023-07-28T08:04:15.3773539Z Artifact has been finalized. All files have been successfully uploaded!
+2023-07-28T08:04:15.3774798Z 
+2023-07-28T08:04:15.3778357Z The raw size of all the files that were specified for upload is 727040 bytes
+2023-07-28T08:04:15.3779389Z The size of all the files that were uploaded is 90747 bytes. This takes into account any gzip compression used to reduce the upload size, time and storage
+2023-07-28T08:04:15.3780487Z 
+2023-07-28T08:04:15.3821188Z Note: The size of downloaded zips can differ significantly from the reported size. For more information see: https://github.com/actions/upload-artifact#zipped-artifact-downloads 
+2023-07-28T08:04:15.3822086Z 
+2023-07-28T08:04:15.3822865Z Artifact github-pages has been successfully uploaded!
