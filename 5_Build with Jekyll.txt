@@ -1,0 +1,58 @@
+2023-07-28T08:04:10.5197293Z ##[group]Run actions/jekyll-build-pages@v1
+2023-07-28T08:04:10.5197650Z with:
+2023-07-28T08:04:10.5197845Z   source: ./
+2023-07-28T08:04:10.5198067Z   destination: ./_site
+2023-07-28T08:04:10.5198292Z   future: false
+2023-07-28T08:04:10.5198558Z   build_revision: 4c8b6c268367cac64bf6cd5f56faca7a791d011a
+2023-07-28T08:04:10.5198838Z   verbose: true
+2023-07-28T08:04:10.5199192Z   token: ***
+2023-07-28T08:04:10.5199393Z env:
+2023-07-28T08:04:10.5199602Z   GITHUB_PAGES: true
+2023-07-28T08:04:10.5199819Z ##[endgroup]
+2023-07-28T08:04:10.5501963Z ##[command]/usr/bin/docker run --name ghcrioactionsjekyllbuildpagesv108_16c888 --label 5bedb4 --workdir /github/workspace --rm -e "GITHUB_PAGES" -e "INPUT_SOURCE" -e "INPUT_DESTINATION" -e "INPUT_FUTURE" -e "INPUT_BUILD_REVISION" -e "INPUT_VERBOSE" -e "INPUT_TOKEN" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_ID_TOKEN_REQUEST_URL" -e "ACTIONS_ID_TOKEN_REQUEST_TOKEN" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/Devlynnx.GitHub.io/Devlynnx.GitHub.io":"/github/workspace" ghcr.io/actions/jekyll-build-pages:v1.0.8
+2023-07-28T08:04:11.8666369Z [33mConfiguration file: none[0m
+2023-07-28T08:04:11.8881566Z   Logging at level: debug
+2023-07-28T08:04:11.8882456Z       GitHub Pages: github-pages v228
+2023-07-28T08:04:11.8883168Z       GitHub Pages: jekyll v3.9.3
+2023-07-28T08:04:11.8884028Z              Theme: jekyll-theme-primer
+2023-07-28T08:04:11.8884571Z       Theme source: /usr/local/bundle/gems/jekyll-theme-primer-0.6.0
+2023-07-28T08:04:11.8885007Z          Requiring: jekyll-github-metadata
+2023-07-28T08:04:11.9917894Z To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+2023-07-28T08:04:14.5504901Z          Requiring: jekyll-seo-tag
+2023-07-28T08:04:14.5505646Z          Requiring: jekyll-coffeescript
+2023-07-28T08:04:14.5506280Z          Requiring: jekyll-commonmark-ghpages
+2023-07-28T08:04:14.5507519Z          Requiring: jekyll-gist
+2023-07-28T08:04:14.5507860Z          Requiring: jekyll-github-metadata
+2023-07-28T08:04:14.5508266Z          Requiring: jekyll-paginate
+2023-07-28T08:04:14.5508737Z          Requiring: jekyll-relative-links
+2023-07-28T08:04:14.5509305Z          Requiring: jekyll-optional-front-matter
+2023-07-28T08:04:14.5509694Z          Requiring: jekyll-readme-index
+2023-07-28T08:04:14.5510067Z          Requiring: jekyll-default-layout
+2023-07-28T08:04:14.5510453Z          Requiring: jekyll-titles-from-headings
+2023-07-28T08:04:14.5510781Z    GitHub Metadata: Initializing...
+2023-07-28T08:04:14.5511083Z             Source: /github/workspace/./
+2023-07-28T08:04:14.5511378Z        Destination: /github/workspace/./_site
+2023-07-28T08:04:14.5511809Z  Incremental build: disabled. Enable with --incremental
+2023-07-28T08:04:14.5512118Z       Generating... 
+2023-07-28T08:04:14.5531197Z         Generating: JekyllOptionalFrontMatter::Generator finished in 0.000145801 seconds.
+2023-07-28T08:04:14.5532087Z         Generating: JekyllReadmeIndex::Generator finished in 0.002074713 seconds.
+2023-07-28T08:04:14.5532695Z         Generating: Jekyll::Paginate::Pagination finished in 4.2e-06 seconds.
+2023-07-28T08:04:14.5533218Z         Generating: JekyllRelativeLinks::Generator finished in 2.79e-05 seconds.
+2023-07-28T08:04:14.5533718Z         Generating: JekyllDefaultLayout::Generator finished in 8.27e-05 seconds.
+2023-07-28T08:04:14.5534251Z         Generating: JekyllTitlesFromHeadings::Generator finished in 2.71e-05 seconds.
+2023-07-28T08:04:14.5534617Z          Rendering: assets/css/style.scss
+2023-07-28T08:04:14.5534980Z   Pre-Render Hooks: assets/css/style.scss
+2023-07-28T08:04:14.5535274Z   Rendering Markup: assets/css/style.scss
+2023-07-28T08:04:14.5535752Z          Rendering: README.md
+2023-07-28T08:04:14.5536298Z   Pre-Render Hooks: README.md
+2023-07-28T08:04:14.5536561Z   Rendering Markup: README.md
+2023-07-28T08:04:14.5536917Z          Requiring: kramdown-parser-gfm
+2023-07-28T08:04:14.5537585Z   Rendering Layout: README.md
+2023-07-28T08:04:14.5537832Z      Layout source: theme
+2023-07-28T08:04:14.5538221Z    GitHub Metadata: Generating for devlynnx/Devlynnx.GitHub.io
+2023-07-28T08:04:14.5538895Z    GitHub Metadata: Calling @client.repository("devlynnx/Devlynnx.GitHub.io", {:accept=>"application/vnd.github.drax-preview+json"})
+2023-07-28T08:04:14.5539437Z    GitHub Metadata: Calling @client.pages("devlynnx/Devlynnx.GitHub.io", {})
+2023-07-28T08:04:14.5540497Z            Writing: /github/workspace/_site/assets/css/style.css
+2023-07-28T08:04:14.5540973Z            Writing: /github/workspace/_site/index.html
+2023-07-28T08:04:14.5541333Z                     done in 2.202 seconds.
+2023-07-28T08:04:14.5541758Z  Auto-regeneration: disabled. Use --watch to enable.
