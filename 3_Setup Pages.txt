@@ -1,5 +1,0 @@
-2023-06-18T05:09:25.0168062Z ##[group]Run actions/configure-pages@v3
-2023-06-18T05:09:25.0168312Z with:
-2023-06-18T05:09:25.0168711Z   token: ***
-2023-06-18T05:09:25.0168920Z   enablement: false
-2023-06-18T05:09:25.0169106Z ##[endgroup]
